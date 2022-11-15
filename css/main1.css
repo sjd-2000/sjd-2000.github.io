@@ -13,6 +13,12 @@ body {background:#2d2d2d; font-family: Arial, serif;font-weight: bold;color: whi
     margin: 6em auto;
   }
 }
+@media screen and (max-width: 479px) {
+.cd-intro {
+    margin: 3em auto;
+  }
+  
+}
 .cd-headline {
   font-size: 3rem;
   line-height: 1.2;
@@ -21,6 +27,12 @@ body {background:#2d2d2d; font-family: Arial, serif;font-weight: bold;color: whi
   .cd-headline {
     font-size: 4.4rem;
     font-weight: 300;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  .cd-headline {
+    font-size: 2.4rem;
   }
 }
 @media only screen and (min-width: 1170px) {
